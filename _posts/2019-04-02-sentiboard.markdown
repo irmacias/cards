@@ -3,7 +3,7 @@ layout: post
 title:  "Sentiboard"
 date:   2019-04-02 10:51:47 +0530
 categories: jekyll update
-img: image-1.png
+img: sentiboard.jpg
 categories: [one, two]
 ---
 ## Inspiration
