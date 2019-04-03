@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Rendering Rigid Scenes for Augmented Reality"
+categories: jekyll update
+img: kinect.png
+---
+Final Project for MIT's Computer Graphics Course.
+
+## Motivation
+
+Depth sensing is used in a variety of applications that range from augmented reality to robotics. However, the depth sensors are power hungry, which on mobile devices limits the battery life. Our algorithm takes in intermittently mixed low power and high power acquired depth maps, and outputs a denoised depth map. We want to be able to show a demonstration of the quality of this algorithm, and therefore aim to provide an augmented reality demo.
+
+The goal of this project is to render virtual objects in an environment captured by paired RGB and Depth images. Our original goal encompassed also running physical simulations, but the complex nature of this problem within our limited time caused us to refocus our goal to just the former.
+
+## Pipeline
+
+We envision our pipeline to look as in Figure 1. The general flow is as follows.
+1. Capture RGB and Depth paired images from Kinect (or other depth sensor)
+2. Convert RGBD to 3D point cloud using camera intrinsic parameters (focal length, optical center)
+3. Calculate camera motion by comparing two different point clouds of consecutive frames
+4. Apply camera motion to current point cloud to transform to world space
+5. Merge all points in world space to remove duplicates
+6. Filter outliers, then find normals of valid points
+7. Using normals, convert world space points to a mesh
+8. Render all results in OpenGl. Rendering of the virtual object also occurs here.
+
+Two factors have prevented us from completing the full pipeline:
+1. Inaccurate camera motion estimation
+2. Long processing time to generate meshes
+
+## My part of the project
+
+My part of the project focused on mesh generation from a raw point cloud dataset. The idea is to convert this point cloud:
+
+![cloud](images\cloud1.png)
+
+to a mesh in a fast amount of time, like below:
+
+![cloud3](images\mesh.png)
+
+<iframe src="https://onedrive.live.com/embed?cid=42346A5E21E1F106&amp;resid=42346A5E21E1F106%212335&amp;authkey=AIAYVe1jgOAtNVs&amp;em=2&amp;wdAr=1.7777777777777777" width="610px" height="367px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office Online</a>.</iframe>
