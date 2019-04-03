@@ -10,7 +10,7 @@ Please refer to the PDF below for a full description of the final project. Code 
 
 ## Introduction
 
-For our final project we developed a convolutional neural network (CNN) capable of classifyingrandom  voice  samples  of  the  various  characters  of  the  anime  (Japanese  animation)  Steins;Gateaccording to the voice actors/actresses that produced them.  Throughout this paper we discuss ourmethods of data processing/collection, the architecture of our CNN implementation, the final resultsof our model, and potential improvements.
+For our final project we developed a convolutional neural network (CNN) capable of classifying random  voice  samples  of  the  various  characters  of  the  anime  (Japanese  animation)  Steins;Gate according to the voice actors/actresses that produced them.  Throughout this paper we discuss our methods of data processing/collection, the architecture of our CNN implementation, the final results of our model, and potential improvements.
 
 ## Tools used
 The  entire  project  was  written  in  Python, primarily  utilizing  the  deep-learning  frame-work, PyTorch to construct and train our neural networks.  Data collection and labelling was done using both Audacity (audio analysis  software)  and Praat  (speech  analysis software), both of which allowed us to produce precise annotations for the raw Steins;Gate audio.  Finally, much of the data handling operations were handled by the h5py library.
