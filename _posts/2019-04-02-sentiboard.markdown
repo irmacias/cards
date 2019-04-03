@@ -7,6 +7,7 @@ img: sentiboard.jpg
 categories: [one, two]
 ---
 https://devpost.com/software/sentiboard
+
 Imbuing personality into product is a feature recently sought out by several leading companies in the consumer product industry. In the gaming industry, Corsair is a key leader with its customizable gaming peripherals, allowing users to easily personalize their own gear using custom LED lighting. The ability to demonstrate one’s own personal profile becomes much more profound, while also enhancing the user’s experience. With Sentiboard, we take this desire even further by linking the user’s profile not only with their custom preset, but also with their current emotional state, thereby allowing a more dynamic setting and creative venture.
 
 

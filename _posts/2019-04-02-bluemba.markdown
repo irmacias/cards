@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Post with no image"
+img: roomba.jpg
 categories: jekyll update
 ---
-When there is no image mentioned in the front-matter, default image will be displayed. You can change this image to any other one that suits your needs.
+Here I present my final project for MIT's 6.s062: Mobile Sensors and Computing.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non iaculis risus. Phasellus vitae nunc ac lectus finibus porttitor. Sed vel enim vulputate, euismod neque maximus, tincidunt turpis. Aenean accumsan leo eget dui porta pulvinar. Sed tincidunt, nisi non efficitur tempus, enim lectus aliquam arcu, at dignissim ligula ex eu quam. Suspendisse gravida dapibus ultrices. Vivamus convallis nulla nisl, a imperdiet felis pellentesque in. Nulla facilisi. Integer aliquet sed orci eu tempor. Sed viverra ullamcorper commodo.
+The purpose of this project is to enhance a Roomba's capability of cleaning without the need of more expensive hardware. This is done primarily through the usage of Bluetooth Low-Energy sensors to be able to guide a Roomba through a planned path to minimize time. See the powerpoint below:
 
-Morbi vestibulum sem eget maximus feugiat. Curabitur vehicula magna in molestie dignissim. Nam gravida leo non purus cursus, id accumsan justo tincidunt. Donec accumsan purus mauris, vitae luctus magna faucibus vitae. Nullam tincidunt urna scelerisque, hendrerit mi ac, sagittis ligula. Curabitur convallis eros eu fringilla maximus. Donec lobortis scelerisque enim eu molestie. Duis ac mi quis risus auctor vulputate.
+<iframe src="https://onedrive.live.com/embed?cid=42346A5E21E1F106&amp;resid=42346A5E21E1F106%212330&amp;authkey=ANl0kTF56eN3Geg&amp;em=2&amp;wdAr=1.7777777777777777" width="962px" height="565px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office Online</a>.</iframe>
