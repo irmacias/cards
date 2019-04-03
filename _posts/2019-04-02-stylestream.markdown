@@ -2,7 +2,7 @@
 layout: post
 title:  "Stylestream"
 categories: jekyll update
-img: stylesteam.jpg
+img: stylestream.jpg
 categories: two
 ---
 HackMIT 2017 Project.
