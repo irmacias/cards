@@ -5,4 +5,4 @@ permalink: /contact/
 ---
 
 
-Feel free to contact me [here](irmacias@mit.edu).
+Feel free to contact me <a href="mailto:irmacias@mit.edu">here</a>!
