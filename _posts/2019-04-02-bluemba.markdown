@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Post with no image"
+title:  "Bluemba"
 img: roomba.jpg
 categories: jekyll update
 ---
-Here I present my final project for MIT's 6.s062: Mobile Sensors and Computing.
+Here I present my team's final project for MIT's 6.s062: Mobile Sensors and Computing, Bluemba.
 
 The purpose of this project is to enhance a Roomba's capability of cleaning without the need of more expensive hardware. This is done primarily through the usage of Bluetooth Low-Energy sensors to be able to guide a Roomba through a planned path to minimize time. See the powerpoint below:
 
