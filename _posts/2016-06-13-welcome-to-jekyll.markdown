@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Sentiboard"
 date:   2016-06-13 10:51:47 +0530
 categories: jekyll update
 img: image-1.png
