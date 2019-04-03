@@ -7,6 +7,8 @@ categories: two
 ---
 HackMIT 2017 Project.
 
+Link to code here: https://github.com/justyucode/2017_audio_transfer
+
 
 ## What it does
 We constructed StyleStream using variational autoencoders  (VAEs), networks whose purpose is to have the ability seamlessly transfer styles between music tracks. To illustrate the idea, consider two song pieces, one whose genre is rock and the other whose genre is classical. Now take the feel and style of the rock song and project it onto the classical song and what is produced is the same classical song as a base but with a new, refreshing rock style that captures the and combines two entirely different pieces of music into one. Style stream does this, using music from several thousand rich samples.
